@@ -108,9 +108,9 @@ namespace GradeBook.GradeBooks
             }
         }
 
-        public virtual int GetGPA(char letterGrade, StudentType studentType)
+        public virtual double GetGPA(char letterGrade, StudentType studentType)
         {
-            int numberGrade = 0;
+            double numberGrade = 0;
             switch (letterGrade)
             {
                 case 'A':
